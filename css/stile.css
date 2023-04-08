@@ -492,11 +492,11 @@ footer p{
   }
 
   .titolo{
-    width: 700px;
+    width: 20px;
     height: 481px;
     top: 97px;
     background: #FFC700;
-    text-transform: uppercase;
+    margin: auto;
   }
 
   h1{
