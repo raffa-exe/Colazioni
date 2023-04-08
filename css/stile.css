@@ -7,7 +7,7 @@ body{
 #menuToggle
 {
   display: block;
-  position: relative;
+  position: absolute;
   top: 20px;
   left: 20px;
   height:40px;
@@ -482,7 +482,7 @@ footer p{
   nav img#marchio{
     width: 90px;
     height: 70px;
-    left: 690px;
+    left: 660px;
   }
 
   nav img#abact{
@@ -491,8 +491,17 @@ footer p{
     left: 350px;
   }
 
-  .titolo{
+  header p{
     width: 200px;
+  }
+
+  #menuToggle{
+    width: 170px;
+  }
+
+  #titolo{
+    position: absolute;
+    width: 800px;
     height: 481px;
     top: 97px;
     background: #FFC700;
@@ -502,14 +511,11 @@ footer p{
     position: absolute;
     width: 600px;
     height: 50px;
-    margin:auto;
-    top:140px;
-    left:140px;
+    top:130px;
+    left:130px;
     font-family: 'aclonica';
     font-style: normal;
-    font-weight: 400;
     font-size: 64px;
-    border-color: black;
     line-height: 73px;
     color: #FFFFFF;
   }
